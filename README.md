@@ -5,6 +5,7 @@ Step-by-step-guide:
 
 Step1:
 We extracted skeletons from the pheno4D dataset using the algorithm []. 
+
 Run visualize_skeleton_point_cloud.m to see the point clouds of the extracted skeletons.
 
 Step2:
