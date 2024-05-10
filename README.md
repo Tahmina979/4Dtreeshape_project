@@ -2,12 +2,13 @@
 
 
 Step-by-step-guide:
+
 Step1:
 We extracted skeletons from the pheno4D dataset using the algorithm []. 
-Run to see the point clouds of the extracted skeletons
+Run visualize_skeleton_point_cloud.m to see the point clouds of the extracted skeletons.
 
 Step2:
-Then we added branch layer information in those point cloud data. A bunch of preprocessed data is in the dataset folder in .mat files Where the filename is the date of capturing the sample data. You can access all data from XXX. Note: we warp out (removing some intermediate samples) some 4D growing plants for temporal registration purposes
+Then, we added branch layer information in those point cloud data. A bunch of preprocessed data is in the dataset folder in .mat files Where the filename is the date of capturing the sample data. You can access all data from XXX. Note: we warp out (removing some intermediate samples) some 4D growing plants for temporal registration purposes
 
 Run to see the growing pattern of tomato plants with branch layer information (color-coded)
 Run to see the growing pattern of maize plants with branch layer information (color-coded)
