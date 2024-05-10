@@ -5,7 +5,7 @@ clear all;
 addpath('dataset')
 % #### DIRECTORY OF THE DATASET #####
 
-path_to_swc="address of the directory of .swc files in dataset folder"
+path_to_swc="dataset/tomato_1/"   % use "dataset/Maize01/" to see the maize plants
 path=dir(strcat(path_to_swc,"*.swc"));
 
 for i=1:length(path)
