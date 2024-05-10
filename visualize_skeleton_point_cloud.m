@@ -2,6 +2,7 @@ clc
 clear
 clear all;
 
+addpath('dataset')
 % #### DIRECTORY OF THE DATASET #####
 
 path_to_swc="address of the directory of .swc files in dataset folder"
