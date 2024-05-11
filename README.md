@@ -1,5 +1,6 @@
+<div style="text-align: justify;">
+  
 # 4Dtreeshape_project
-
 
 Step-by-step-guide:
 
@@ -51,4 +52,6 @@ Run **Synthesize_tomato.m** to synthesize some random patterns (for tomato plant
 Run **Synthesize_mazie.m** to synthesize some random patterns (for maize plants)
 
 (**Note:** Mathematical implementation for both maize and tomato plants are the same. We provide results in two different files for good visualization as their shapes are different.)
+
+</div>
 
