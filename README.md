@@ -14,9 +14,14 @@ Then, we added branch layer information in those point cloud data. A bunch of pr
 Run Branching_layers.m to see the growing pattern of plants with branch layer information (color-coded)
 
 Step 3:
-See the result of spatial registration. Here, color codes indicate the correspondences between branches
+See the spatial registration result between 3D plants across growing sequences. color codes indicate the 1st layer correspondences between branches
 
-Run to see two growing patterns before and after spatial registration
+Run Spatial_registration_maize.m for maize plants
+Run Spatial_registration_tomato.m for tomato plants
+
+As mentioned in the paper, the tomato plant requires more time than maize due to its complex structure. If your system configuration matches the mentioned configuration, it should take time to get around our listed one in Table 1.
+
+Step 4:
 Run to see those growing patterns after temporal registration
 
 Step 4: 
