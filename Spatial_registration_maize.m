@@ -18,13 +18,13 @@ box on; hold on;
 
 set(gca,'XColor', 'none','YColor','none','ZColor','none');
 
-data_path1= 'dataset/maize01_seq/';
+data_path1= 'utils_data/maize01_seq/';
 [all_qCompTrees1, all_compTrees1] = maize_load_from_mat_file(data_path1);
 num_within_seq1=numel(all_qCompTrees1);
 maize_show_all_shapes_sp_reg(all_compTrees1,1);
 
 
-data_path2= 'dataset/maize03_seq/'; 
+data_path2= 'utils_data/maize03_seq/'; 
 [all_qCompTrees2, all_compTrees2] = maize_load_from_mat_file(data_path2);
 num_within_seq2=numel(all_qCompTrees2);
 maize_show_all_shapes_sp_reg(all_compTrees2,2)
