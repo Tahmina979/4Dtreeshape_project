@@ -2,7 +2,7 @@ clc;
 clear;
 close all;
 
-addpath('utils_data','utils_draw',"OpenCurvesRn",'utils_funcs',"utils_statModels",'Registered_tomato_plants');
+addpath('utils_data','utils_draw',"OpenCurvesRn",'utils_funcs',"utils_statModels");
 
 
 lam_m = 1; 
