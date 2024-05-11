@@ -2,7 +2,7 @@ clc;
 clear;
 close all;
 
-addpath('utils_data','utils_draw','utils_funcs',"utils_statModels");
+addpath('utils_data','utils_draw','utils_funcs',"utils_statModels", "OpenCurvesRn");
 
 lam_m = 1; 
 lam_s = 1;
