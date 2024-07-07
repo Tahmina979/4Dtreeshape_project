@@ -11,7 +11,7 @@ Run **visualize_skeleton_point_cloud.m** to see the point clouds of the extracte
 
 **Step 2:**
 
-Then, we added branch layer information in those point cloud data. A bunch of preprocessed data is in the dataset folder in .mat files Where the filename is the date of capturing the sample data. You can access all data from XXX. Note: we warp out (removing some intermediate samples) some 4D growing plants for temporal registration purposes
+Then, we added branch layer information in those point cloud data. **Util_data** folder contains those preprocessed data, the filename of which is the date of capturing the sample data. Note: we warp out (removing some intermediate samples) some 4D growing plants for temporal registration purposes
 
 Run **Branching_layers.m** to see the growing pattern of plants with branch layer information (color-coded)
 
@@ -33,11 +33,13 @@ Run **Tempral_registration_maize.m** to see the temporal registration result for
 
 **Step 4: (Geodesic)**
 
-Run **Geodesic_computation_before_reg.m** to compute geodesic between two 4D growing plants before spatiotemporal registration
+Run **Geodesic_computation_before_reg.m** to compute geodesic between two 4D growing tomato plants before spatiotemporal registration
 
-Run **Geodesic_computation_after_reg.m** to compute geodesic between two growing plants after spatiotemporal registration
+Run **Geodesic_computation_after_reg.m** to compute geodesic between two growing 4D tomato plants after spatiotemporal registration
 
-**Step 5: (statistics)**
+Run **Maize_Geodesic_computation.m** to compute geodesic between two growing 4D maize plants after spatiotemporal registration
+
+**Step 5: (Statistics)**
 
 Run **Mean_tomato.m** to compute the mean of the registered shapes in the dataset (for tomato plants)
 
@@ -52,5 +54,7 @@ Run **Synthesize_tomato.m** to synthesize some random patterns (for tomato plant
 Run **Synthesize_mazie.m** to synthesize some random patterns (for maize plants)
 
 (**Note:** Mathematical implementation for both maize and tomato plants are the same. We provide results in two different files for good visualization as their shapes are different.)
+
+Please compile DynamicProgramming.c in Matlab before using programs.
 
 
