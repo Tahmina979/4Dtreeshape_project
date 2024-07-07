@@ -18,7 +18,7 @@ for i=1:length(path)
     end    
     A = sscanf(fline, '%f %f %f %f %f %f %f');
     A1=A(3:5);
-    data = [data; A1']
+    data = [data; A1'];
     end
     fclose(file);
     newObj=pointCloud(data); 
