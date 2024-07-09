@@ -5,7 +5,7 @@ Step-by-step-guide:
 
 **Step 1:**
 
-We extracted skeletons from the pheno4D dataset using the algorithm of [15] in the main manuscript. Save all of the skeletons as a .swc file in the "utlis_data" folder.
+We extracted skeletons from the pheno4D dataset using the algorithm of [15] in the main manuscript. Save all of the skeletons as a .swc file in the **utlis_data** folder.
 
 Run **visualize_skeleton_point_cloud.m** to see the point clouds of the extracted skeletons.
 
@@ -21,6 +21,7 @@ See the spatial registration result between 3D plants across 4D growing plants. 
 
 Run **Spatial_registration_maize.m** for maize plants
 
+![Branchwise correspondences are color coded](./spresult_5_3_full_1.jpg)
 Run **Spatial_registration_tomato.m** for tomato plants
 
 **Step 4: (Temporal registration)**
@@ -28,6 +29,8 @@ Run **Spatial_registration_tomato.m** for tomato plants
 We then perform temporal registration to synchronize two 4D growing plants with different growth rates.
 
 Run **Tempral_registration_tomato.m** to see the temporal registration result for tomato plants
+
+!(./temporal_reg_result_1_3_1.jpg)
 
 Run **Tempral_registration_maize.m** to see the temporal registration result for maize plants
 
@@ -37,6 +40,7 @@ Run **Geodesic_computation_before_reg.m** to compute geodesic between two 4D gro
 
 Run **Geodesic_computation_after_reg.m** to compute geodesic between two growing 4D tomato plants after spatiotemporal registration
 
+!(./geod_1_3_after_reg_1.jpg)
 
 Run **Maize_Geodesic_computation.m** to compute geodesic between two growing 4D maize plants after spatiotemporal registration
 
