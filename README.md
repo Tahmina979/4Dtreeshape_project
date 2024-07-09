@@ -5,7 +5,7 @@ Step-by-step-guide:
 
 **Step 1:**
 
-We extracted skeletons from the pheno4D dataset using the algorithm []. 
+We extracted skeletons from the pheno4D dataset using the algorithm of [15] in the main manuscript. Save all of the skeletons as a .swc file in the "utlis_data" folder.
 
 Run **visualize_skeleton_point_cloud.m** to see the point clouds of the extracted skeletons.
 
