@@ -1,0 +1,201 @@
+clc;
+clear;
+close all
+
+
+lam_m = 1; 
+lam_s = 1;
+lam_p = 1;
+
+%% ############ DATA ############
+addpath('toolbox_graph\toolbox_graph','toolbox_graph\toolbox_graph\toolbox');
+datapath="NeuroData\tomseq\seq_6_71\";
+
+hlink = linkprop([],{'CameraPosition','CameraUpVector','GridColor','GridLineStyle','GridAlpha'});
+obj_files = dir(fullfile(datapath, '*.obj'));
+tree_num = length(obj_files);
+
+clf;
+
+camlight;
+
+%set(gca,'XColor', 'none','YColor','none','ZColor','none');
+path=1;
+shift=0;
+shiftz=0;
+for i=1:tree_num
+
+[V,F]=read_obj(strcat(datapath,num2str(i),'.obj'));
+
+
+%subplot(7,1,1);
+
+plot_mesh(V,F,shift,shiftz);%,option); 
+
+if i==9||i==10
+    shift=shift+120;
+elseif i>6
+    shift=shift+90;
+else
+    shift=shift+50;
+end
+shading interp; axis tight;
+
+end
+
+path=path+1;
+shift=0;
+shiftz=shiftz-100;
+datapath="NeuroData\tomseq\seq_6_72\";
+
+obj_files = dir(fullfile(datapath, '*.obj'));
+
+for i=11:20
+
+[V,F]=read_obj(strcat(datapath,num2str(i-10),'.obj'));
+
+%subplot(7,path);
+
+plot_mesh(V,F,shift,shiftz);%,option); 
+
+if i==19||i==20
+    shift=shift+120;
+elseif i>16
+    shift=shift+90;
+else
+    shift=shift+50;
+end
+shading interp; axis tight;
+
+end
+
+path=path+1;
+shift=0;
+shiftz=shiftz-100;
+datapath="NeuroData\tomseq\seq_6_73\";
+
+obj_files = dir(fullfile(datapath, '*.obj'));
+
+for i=21:30
+
+[V,F]=read_obj(strcat(datapath,num2str(i-20),'.obj'));
+
+%subplot(7,path);
+
+plot_mesh(V,F,shift);%,option); 
+
+if i==9||i==10
+    shift=shift+120;
+elseif i>6
+    shift=shift+90;
+else
+    shift=shift+50;
+end
+shading interp; axis tight;
+
+end
+
+path=path+1;
+shift=0;
+shiftz=shiftz-100;
+datapath="NeuroData\tomseq\seq_6_74\";
+
+obj_files = dir(fullfile(datapath, '*.obj'));
+
+for i=31:40
+
+[V,F]=read_obj(strcat(datapath,num2str(i-30),'.obj'));
+
+%subplot(7,path);
+
+plot_mesh(V,F,shift);%,option); 
+
+if i==9||i==10
+    shift=shift+120;
+elseif i>6
+    shift=shift+90;
+else
+    shift=shift+50;
+end
+shading interp; axis tight;
+end
+
+path=path+1;
+shift=0;
+shiftz=shiftz-100;
+datapath="NeuroData\tomseq\seq_6_75\";
+
+obj_files = dir(fullfile(datapath, '*.obj'));
+
+for i=41:50
+
+[V,F]=read_obj(strcat(datapath,num2str(i-40),'.obj'));
+
+%subplot(7,path);
+
+plot_mesh(V,F,shift);%,option); 
+
+if i==9||i==10
+    shift=shift+120;
+elseif i>6
+    shift=shift+90;
+else
+    shift=shift+50;
+end
+shading interp; axis tight;
+
+end
+
+path=path+1;
+shift=0;
+shiftz=shiftz-100;
+datapath="NeuroData\tomseq\seq_6_76\";
+
+obj_files = dir(fullfile(datapath, '*.obj'));
+
+for i=51:60
+
+[V,F]=read_obj(strcat(datapath,num2str(i-50),'.obj'));
+
+%subplot(7,path);
+
+plot_mesh(V,F,shift);%,option); 
+
+if i==9||i==10
+    shift=shift+120;
+elseif i>6
+    shift=shift+90;
+else
+    shift=shift+50;
+end
+shading interp; axis tight;
+end
+
+path=path+1;
+shift=0;
+shiftz=shiftz-100;
+datapath="NeuroData\tomseq\seq_6_77\";
+
+obj_files = dir(fullfile(datapath, '*.obj'));
+
+for i=61:70
+
+[V,F]=read_obj(strcat(datapath,num2str(i-60),'.obj'));
+
+%subplot(7,path);
+
+plot_mesh(V,F,shift);%,option); 
+
+if i==9||i==10
+    shift=shift+120;
+elseif i>6
+    shift=shift+90;
+else
+    shift=shift+50;
+end
+shading interp; axis tight;
+end
+
+
+
+

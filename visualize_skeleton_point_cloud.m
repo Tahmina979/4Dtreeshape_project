@@ -2,10 +2,10 @@ clc
 clear
 clear all;
 
-addpath('utils_data')
 % #### DIRECTORY OF THE DATASET #####
+addpath('utils_data');
 
-path_to_swc="utils_data/tomato_1/"   % use "utils_data/Maize01/" to see the maize plants
+path_to_swc="utils_data/tomato_1/"
 path=dir(strcat(path_to_swc,"*.swc"));
 
 for i=1:length(path)
