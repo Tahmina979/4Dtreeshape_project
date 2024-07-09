@@ -36,7 +36,7 @@ Run **Tempral_registration_maize.m** to see the temporal registration result for
 Run **Geodesic_computation_before_reg.m** to compute geodesic between two 4D growing tomato plants before spatiotemporal registration
 
 Run **Geodesic_computation_after_reg.m** to compute geodesic between two growing 4D tomato plants after spatiotemporal registration
-<img src="https://github.com/Tahmina979/4Dtreeshape_project/blob/main/mean.tif">
+
 
 Run **Maize_Geodesic_computation.m** to compute geodesic between two growing 4D maize plants after spatiotemporal registration
 
