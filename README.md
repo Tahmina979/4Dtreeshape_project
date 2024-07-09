@@ -11,7 +11,7 @@ Run **visualize_skeleton_point_cloud.m** to see the point clouds of the extracte
 
 **Step 2:**
 
-Then, we added branch layer information in those point cloud data. **Util_data** folder contains those preprocessed data, the filename of which is the date of capturing the sample data. Note: we warp out (removing some intermediate samples) some 4D growing plants for temporal registration purposes
+Then, we added branch layer information in those point cloud data. **utils_data** folder contains those preprocessed data, the filename of which is the date of capturing the sample data. Note: we warp out (removing some intermediate samples) some 4D growing plants for temporal registration purposes
 
 Run **Branching_layers.m** to see the growing pattern of plants with branch layer information (color-coded)
 
