@@ -30,7 +30,7 @@ We then perform temporal registration to synchronize two 4D growing plants with 
 
 Run **Tempral_registration_tomato.m** to see the temporal registration result for tomato plants
 
-!(./temporal_reg_result_1_3_1.jpg)
+![](./temporal_reg_result_1_3_1.jpg)
 
 Run **Tempral_registration_maize.m** to see the temporal registration result for maize plants
 
@@ -40,7 +40,7 @@ Run **Geodesic_computation_before_reg.m** to compute geodesic between two 4D gro
 
 Run **Geodesic_computation_after_reg.m** to compute geodesic between two growing 4D tomato plants after spatiotemporal registration
 
-!(./geod_1_3_after_reg_1.jpg)
+![](./geod_1_3_after_reg_1.jpg)
 
 Run **Maize_Geodesic_computation.m** to compute geodesic between two growing 4D maize plants after spatiotemporal registration
 
