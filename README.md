@@ -21,8 +21,9 @@ See the spatial registration result between 3D plants across 4D growing plants. 
 
 Run **Spatial_registration_maize.m** for maize plants
 
-![Branchwise correspondences are color coded](./spresult_5_3_full_1.jpg)
 Run **Spatial_registration_tomato.m** for tomato plants
+
+![Branchwise correspondences are color-coded](./spresult_5_3_full_1.jpg)
 
 **Step 4: (Temporal registration)**
 
