@@ -1,7 +1,7 @@
 
 # 4Dtreeshape_project
 
-![](./tomato5.gif)
+![](./tomato5.gif)  ![](./tomato1.gif) 
 
 Step-by-step-guide:
 
