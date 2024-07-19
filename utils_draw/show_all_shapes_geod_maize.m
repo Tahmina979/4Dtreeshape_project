@@ -1,4 +1,4 @@
-function show_all_shapes_geod(CT,count)
+function show_all_shapes_geod_maize(CT,count)
 default_c = get(gca,'colororder');
 textt=["First Sample 4D plant", "","", "Mean 4D plant" ,"","","Second Sample 4D plant"];
 for i=1:numel(CT)
