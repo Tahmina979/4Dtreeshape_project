@@ -65,4 +65,16 @@ Run **Synthesize_mazie.m** to synthesize some random patterns (for maize plants)
 
 Please compile DynamicProgramming.c in Matlab before using programs.
 
+If this repository is usefull for your research, plesae site it as:
 
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{4Dtree_skeleton,
+  author    = {Tahmina Khanam, Hamid Laga, Mohammed Bennamoun, Guanjin Wang, Ferdous Sohel, Farid Boussaid, Guan Wang, Anuj Srivastava},
+  title     = {A Riemannian Approach for Spatiotemporal Analysis and Generation of 4D Tree-shaped Structures},
+  journal   = {ECCV},
+  year      = {2024},
+}</code></pre>
+  </div>
+</section>
