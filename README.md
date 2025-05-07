@@ -1,4 +1,4 @@
-[Go to project page here](https://treeshape4dproject.github.io/)
+Project page [click here](https://treeshape4dproject.github.io/)
 # 4Dtreeshape_project 
 
 ![](./tomato5.gif)  ![](./tomato1.gif) 
