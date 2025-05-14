@@ -70,7 +70,7 @@ If this repository is usefull for your research and you use it, plesae site.
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{4Dtree_skeleton,
+    <pre><code>@article{khanam2024riemannian,
   author    = {Tahmina Khanam, Hamid Laga, Mohammed Bennamoun, Guanjin Wang, Ferdous Sohel, Farid Boussaid, Guan Wang, Anuj Srivastava},
   title     = {A Riemannian Approach for Spatiotemporal Analysis and Generation of 4D Tree-shaped Structures},
   journal   = {ECCV},
