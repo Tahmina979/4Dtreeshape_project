@@ -65,7 +65,7 @@ Run **Synthesize_mazie.m** to synthesize some random patterns (for maize plants)
 
 Please compile DynamicProgramming.c in Matlab before using programs.
 
-If this repository is usefull for your research and you use it, plesae site.
+If this repository is useful for your research and you use it, please cite.
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
