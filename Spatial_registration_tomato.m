@@ -92,7 +92,7 @@ end
 num_within_seq2=numel(aligned_q_tree_2);
 %}
 
-%registration within_sequence
+%registration across_sequence
 for i=1:num_within_seq1 
     Q1=aligned_q_tree_2{i};
     Q2=aligned_q_tree_1{i};
@@ -114,3 +114,4 @@ for i=1:num_within_seq2
 end
 
 show_all_shapes_sp_reg(PC2,4);
+
